@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./Nav.css";
+import movies from "../../assets/movies.png";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
@@ -50,6 +51,15 @@ const Navbar = ({ profile, setReset, isHomeScreen, setLoading }) => {
   return (
     <div className={`nav ${show && "nav__black"} `} ref={referencia}>
       <div className="nav__contents">
+        <img
+          src={movies}
+          alt=""
+          className="nav__logo"
+          onClick={() => {
+            navigate("/");
+            window.scrollTo(0, 0);
+          }}
+        />
         <div
           className={`nav__Categories ${show && "nav__Cat"} ${
             width < 720 && "form3"
