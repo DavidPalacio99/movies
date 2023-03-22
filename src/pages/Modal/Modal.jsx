@@ -45,14 +45,8 @@ const Modal = ({ closeModal, setCloseModal, movie }) => {
               </li>
             </Details>
             <ButtonActions>
-              <Button isPrimary>
-                {/* <BsFillPlayFill /> */}
-                Watch now
-              </Button>
-              <Button isPrimary>
-                {/* <AiOutlinePlus /> */}
-                Watch later
-              </Button>
+              <Button isPrimary>Watch now</Button>
+              <Button isPrimary>Watch later</Button>
             </ButtonActions>
           </Content>
           <ButtonClose

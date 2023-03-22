@@ -48,7 +48,7 @@ const Row = ({
       setMovies((prev) => [...prev, ...request.data.results]);
       setTimeout(() => {
         setLoading(false);
-      }, 3000);
+      }, 2500);
       return request;
     }
     fetchData();

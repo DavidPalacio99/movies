@@ -3,7 +3,6 @@
   position: relative;
   color: white;
   object-fit: contain;
-  /* border: 1px solid blue; */
 }
 
 .banner__contents {
@@ -41,7 +40,6 @@
 
 .banner--fadebottom {
   height: 6.2rem;
-  /* border: 1px solid red; */
   background-image: linear-gradient(
     180deg,
     transparent,

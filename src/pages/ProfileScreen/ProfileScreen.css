@@ -2,7 +2,6 @@
   height: 100vh;
   color: #fff;
   overflow: hidden;
-  /* border: 1px solid red; */
 }
 
 .profileScreen__body {
@@ -11,25 +10,7 @@
   width: 50%;
   margin: 0 auto;
   padding-top: 100px;
-  /* border: 1px solid red; */
 }
-
-@media (max-width: 550px) {
-  /* .profileScreen__body {
-    margin-left: 55px;
-    margin-right: 0;
-  } */
-}
-
-/* @media (max-height: 700px) {
-  .profileScreen__body {
-    padding-top: 55px;
-  }
-
-  .profileScreen__body > h1 {
-    font-size: 20px;
-  }
-} */
 
 .profileScreen__info {
   display: flex;

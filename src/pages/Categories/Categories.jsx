@@ -45,7 +45,7 @@ const Categories = ({ category, title }) => {
   loadingOff();
 
   return (
-    <div className="categories" id="categories">
+    <div id="categories">
       <Navbar
         setReset={setReset}
         setLoading={setLoading}

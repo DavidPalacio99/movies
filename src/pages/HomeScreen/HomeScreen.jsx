@@ -41,22 +41,6 @@ const HomeScreen = () => {
         fetchUrl={requests.fetchHorrorMovies}
         isLargeRow
       />
-      {/* <Row
-        title="Romance movies"
-        fetchUrl={requests.fetchRomanceMovies}
-        isLargeRow
-      />
-      <Row
-        title="Documentaries"
-        fetchUrl={requests.fetchDocumentaries}
-        isLargeRow
-      /> */}
-      {/* <Row
-        title="All"
-        fetchUrl={requests.fetchAll}
-        fetchUrl2={requests.fetchAll2}
-        isLargeRow
-      /> */}
     </div>
   );
 };

@@ -1,7 +1,6 @@
 .row {
   color: white;
   margin-left: 20px;
-  /* border: 1px solid red; */
   position: relative;
 }
 
@@ -11,7 +10,6 @@
   overflow-x: scroll;
   padding: 15px;
   scroll-behavior: smooth;
-  /* border: 1px solid red; */
   padding-right: 20px;
 }
 
@@ -36,7 +34,6 @@
   max-height: 100px;
   object-fit: contain;
   margin-right: 10px;
-  /* margin-bottom: 10px; */
   transition: transform 450ms;
 }
 

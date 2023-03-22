@@ -1,13 +1,9 @@
 .App {
   background-color: #111;
-  /* height: 100vh; */
-  /* border: 1px solid red; */
-
   overflow: hidden;
 }
 
 .interceptor {
-  /* height: 30vh; */
   margin-top: 350px;
 }
 
