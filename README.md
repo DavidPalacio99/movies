@@ -2,7 +2,7 @@
 
 Deploy: https://movies-olive-theta.vercel.app/
 
-<img width="35%" align="right" alt="Github" src="https://i.imgur.com/BhQVFrp.jpg" />
+<img width="35%" align="right" alt="Github" src="https://user-images.githubusercontent.com/61585443/185205338-c20bb089-618f-49e2-b740-1c02838030a4.png" />
 
 **Project Description:** 
 
